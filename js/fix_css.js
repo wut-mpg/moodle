@@ -24,5 +24,3 @@ function fix_imgs() {
 	var content = document.getElementsByClassName('book_content');
 	var imgs = content[0].getElementsByTagName('img');
 }
-
-fix_links();
