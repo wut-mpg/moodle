@@ -1,5 +1,5 @@
-function fix_links() {
-	var content = document.getElementsByClassName('book_content');
+function fix_links(parent_name = "book_conent") {
+	var content = document.getElementsByClassName(parent_name);
 	var links = content[0].getElementsByTagName('a');
 
 	for (var i = 0; i < links.length; i++) {
