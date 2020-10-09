@@ -11,7 +11,7 @@ function fix_links(parent_name = "book_content") {
 
 function fix_links_id(parent_name = "book_content") {
 	var content = document.getElementById(parent_name);
-	var links = content[0].getElementsByTagName('a');
+	var links = content.getElementsByTagName('a');
 
 	for (var i = 0; i < links.length; i++) {
 	  if (links[i].title == "TeX") continue;
