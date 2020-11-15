@@ -1,4 +1,4 @@
 ```console
-$ ls
-out
+mstefanc@npc2:~$ echo $LD_LIBRARY_PATH
+out 
 ```
