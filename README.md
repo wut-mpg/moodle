@@ -1,0 +1,4 @@
+```console
+$ ls
+out
+```
